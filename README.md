@@ -1,0 +1,1 @@
+Learning Next Js from masterclass by Huxn Webdev.
