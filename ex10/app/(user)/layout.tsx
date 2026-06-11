@@ -1,0 +1,19 @@
+import UserSidebar from '@/components/UserSidebar'
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
+import React, { ReactNode } from 'react'
+
+const layout = ({children} : {children : ReactNode}) => {
+  return (
+    <div className="w-full hfull">
+        <Navbar/>
+        <div className="flex">
+            <UserSidebar />
+            {children}
+        </div>
+        <Footer/>
+    </div>
+  )
+}
+
+export default layout
